@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* Style de la barre de navigation */
+.navbar {
+    background-color: #ffffff; /* Couleur de fond de la barre de navigation */
+  }
+  
+  /* Style du texte de la marque */
+  .navbar-brand {
+    color: #5f5f73; /* Couleur du texte de la marque */
+    font-weight: bold; /* Gras pour le texte de la marque */
+  }
+  
+  /* Style des liens de navigation */
+  .nav-link {
+    color: #333333; /* Couleur des liens de navigation */
+  }
+  
+  /* Style du lien actif */
+  .nav-link.active {
+    color: #ff0000; /* Couleur du lien actif */
+    font-weight: bold; /* Gras pour le lien actif */
+  }
+  /* Styles pour le conteneur principal */
+.new {
+  margin-top: 20px;
+}
+
+/* Styles pour les étiquettes */
+.new label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Styles pour les champs d'entrée */
+.new input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Styles pour le bouton */
+.new button {
+  background-color: #007bff;
+  color: #690c0c;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new button:hover {
+  background-color: #0056b3;
+}
